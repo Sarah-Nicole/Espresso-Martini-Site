@@ -1,0 +1,52 @@
+/* #e2af1e = yellow */
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+  background-color: #dadbdf ;
+}
+
+.container-fluid{
+  padding: 2% 10%;
+}
+
+
+.header-img-martini{
+  max-width: 100%;
+  border: solid #e2af1e;
+}
+
+
+h1{
+  font-family: 'DM Serif Text', serif;
+  font-size: 3.5rem;
+  line-height: 1.25;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4rem;
+}
+
+.navbar-brand{
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.nav-item{
+  padding: 0 0 0 35px;
+  align-items: left;
+}
+.nav-link:hover{
+  color: #e2af1e;
+}
+
+
+.header-button{
+  margin: 3.5rem 1.25rem 3.5rem 0
+}
