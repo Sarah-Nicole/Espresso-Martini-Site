@@ -5,6 +5,24 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+h1{
+  font-family: 'DM Serif Text', serif;
+  font-size: 3.5rem;
+  line-height: 1.25;
+}
+
+h3{
+  font-family: 'DM Serif Text', serif;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+p{
+  color:grey;    
+}
+
+/* Title Section */
+
 #title{
   background-color: #dadbdf ;
 }
@@ -19,12 +37,6 @@ body{
   border: solid #ffc107;
 }
 
-
-h1{
-  font-family: 'DM Serif Text', serif;
-  font-size: 3.5rem;
-  line-height: 1.25;
-}
 
 /* Navigation Bar */
 
@@ -56,23 +68,12 @@ h1{
 
 #features{
   text-align: center;
+  padding: 6% 15%;
 }
 
-h3{
-  font-family: 'DM Serif Text', serif;
-  font-size: 2rem;
-  line-height: 1.25;
-}
-
-p{
-  color:grey;    
-}
-.feature-row{
-  margin: 3.5rem 8rem;
-}
 
 .feature-col{
-  padding: 2rem 8%;
+  padding: 2rem;
 }
 
 .feature-icon{
@@ -85,4 +86,33 @@ p{
 
 .btn-blog{
   margin: 1rem 0 2rem;
+}
+
+
+/* Testimonials */
+
+#testimonials{
+  text-align: center;
+  background-color: #dadbdf;
+  padding: 6% 15%;
+}
+
+.testimonials-img{
+  width: 5rem;
+  border-radius: 100%;
+  margin: 2rem;
+}
+
+
+/* Press */
+
+#press{
+  text-align: center;
+  background-color: #dadbdf;
+  padding: 0 8% 6%;
+}
+
+.press-img{
+  height: 2rem;
+  padding: 0 2rem;
 }
