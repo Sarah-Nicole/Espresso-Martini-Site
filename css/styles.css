@@ -1,4 +1,4 @@
-/* #e2af1e = yellow */
+/* #ffc107 = yellow */
 
 
 body{
@@ -16,7 +16,7 @@ body{
 
 .header-img-martini{
   max-width: 100%;
-  border: solid #e2af1e;
+  border: solid #ffc107;
 }
 
 
@@ -43,10 +43,46 @@ h1{
   align-items: left;
 }
 .nav-link:hover{
-  color: #e2af1e;
+  color: #ffc107;
 }
 
 
 .header-button{
   margin: 3.5rem 1.25rem 3.5rem 0
+}
+
+
+/* Features */
+
+#features{
+  text-align: center;
+}
+
+h3{
+  font-family: 'DM Serif Text', serif;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+p{
+  color:grey;    
+}
+.feature-row{
+  margin: 3.5rem 8rem;
+}
+
+.feature-col{
+  padding: 2rem 8%;
+}
+
+.feature-icon{
+  color:#ffc107;
+  padding-bottom: 1.25rem;
+}
+.feature-icon:hover{
+  color: #fdd34c;
+}
+
+.btn-blog{
+  margin: 1rem 0 2rem;
 }
