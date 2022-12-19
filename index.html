@@ -88,7 +88,7 @@
 
       <div class="col-lg-4 feature-col">
         <h3><i class="feature-icon fa-solid fa-wine-bottle fa-2x"></i></h3>
-        <h3>Kalua</h3>
+        <h3>Kahlua</h3>
         <p>Adds the sweetness to your drink.</p>
       </div>
       
@@ -104,15 +104,36 @@
 
   <section id="testimonials">
 
-    <h3>"This ultimate combination of coffe and cocktail will make you love your nights out."</h2>
-    <img class = "testimonials-img" src="images/dog-img.jpg" alt="JonSmith-profile">
-    <em>Jon Smith, New York</em>
+    <div id="carousel-testimonials" class="carousel slide" data-bs-ride="carousel" data-interwall="3000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel-testimonials" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carousel-testimonials" data-bs-slide-to="1" ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h3 class="testimonial-text">"Because sometimes a cup of coffe isn't enough."</h3>
+          <img class="testimonials-img" src="images/AliceGarcia-img.jpg" alt="AliceGarcia-profile">
+          <em>Alice Garcia, Illinois</em> 
+        </div>
+        <div class="carousel-item">
+          <h3>"This ultimate combination of coffe and cocktail will make you love your nights out."</h3>
+          <img class = "testimonials-img" src="images/JohnSmith-img.jpg" alt="JonSmith-profile">
+          <em>John Smith, New York</em>
+          
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-testimonials" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span> 
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel-testimonials" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
 
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> 
-      Espresso Martini: Because sometimes a cup of coffe isn't enough.
-      Espresso Martini: The drink that keeps you going all night long.  -->
+
+
+  
+
 
   </section>
 
@@ -120,11 +141,24 @@
   <!-- Press -->
 
   <section id="press">
-    <img class= "press-img" src="images/techcrunch.png" alt="tc-logo">
-    <img class= "press-img" src="images/tnw.png" alt="tnw-logo">
-    <img class= "press-img" src="images/bizinsider.png" alt="biz-insider-logo">
-    <img class= "press-img" src="images/mashable.png" alt="mashable-logo">
 
+    <div class="row press-row">
+      <div class="col-lg-3 col-sm-6 press-col">
+        <img class= "press-img" src="images/techcrunch.png" alt="tc-logo">
+      </div>    
+
+      <div class="col-lg-3 col-sm-6 press-col">
+        <img class= "press-img" src="images/tnw.png" alt="tnw-logo">
+      </div>    
+
+      <div class="col-lg-3 col-sm-6 press-col">
+        <img class= "press-img" src="images/bizinsider.png" alt="biz-insider-logo">
+      </div>    
+
+      <div class="col-lg-3 col-sm-6 press-col">
+        <img class= "press-img" src="images/mashable.png" alt="mashable-logo">
+      </div>    
+     
   </section>
 
 
@@ -179,6 +213,7 @@
   <footer id="footer">
 
     <p>© Copyright TinDog</p>
+    <a href="https://www.vecteezy.com/free-vector/avatar">Avatar Vectors by Vecteezy</a>
 
   </footer>
 

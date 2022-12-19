@@ -28,7 +28,7 @@ p{
 }
 
 .container-fluid{
-  padding: 2% 10%;
+  padding: 2% 10% 6%;
 }
 
 
@@ -94,25 +94,45 @@ p{
 #testimonials{
   text-align: center;
   background-color: #dadbdf;
-  padding: 6% 15%;
+
+  
+}
+
+#carousel-testimonials{
+  padding: 6% 15% 3%;
+  
+}
+
+.carousel-item{
+  min-height:15rem;
 }
 
 .testimonials-img{
   width: 5rem;
   border-radius: 100%;
   margin: 2rem;
+  
 }
 
+.carousel-indicators button {
+  height: 8px !important;
+  width: 8px !important;
+  margin: 0 5px !important;
+  border-radius: 100%;
+}
 
 /* Press */
 
 #press{
   text-align: center;
   background-color: #dadbdf;
-  padding: 0 8% 6%;
+  padding: 3% 8% 6%;
+}
+
+.press-col{
+  padding: 1rem;
 }
 
 .press-img{
-  height: 2rem;
-  padding: 0 2rem;
+  height: 2.4rem;
 }
