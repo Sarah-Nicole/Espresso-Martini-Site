@@ -3,6 +3,14 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Project specific files
+Espresso-Martini-Header-img_brown.png
+Espresso-Martini-Header-img_pink.png
+Espresso-Martini-Header-img_white.png
+Espresso-Martini-Header-img_yellow.png
+Profile-Pictures_Selection.jpg
+
+
 # User-specific files
 *.rsuser
 *.suo
