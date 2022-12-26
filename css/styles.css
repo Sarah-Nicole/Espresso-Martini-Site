@@ -136,3 +136,18 @@ p{
 .press-img{
   height: 2.4rem;
 }
+
+
+/* Pricing-Section */
+
+#pricing{
+  padding: 4% 10% 6%;
+}
+
+.h1-pricing{
+  margin-bottom: 2%;
+}
+
+.recipe-card{
+  padding:4% 2%
+}
