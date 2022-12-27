@@ -24,19 +24,36 @@ p{
 /* Title Section */
 
 #title{
-  background-color: #dadbdf ;
+  background-color:#dadbdf;
+  position: relative;
+  z-index: -2;
+
 }
 
 .container-fluid{
-  padding: 2% 10% 6%;
+  padding: 2% 10% 5%;
 }
 
+.header-img{
+  min-height: 15rem;
+  margin-top: 3rem;
+}
 
 .header-img-martini{
-  max-width: 100%;
+  width: 45%;
+  min-width: 25rem;
   border: solid #ffc107;
+  transform: rotate(-15deg);
+  position: absolute;
+  z-index: -1;
+  
 }
 
+
+
+.header-button{
+  margin: 3.5rem 1.25rem 2rem 0
+}
 
 /* Navigation Bar */
 
@@ -59,9 +76,7 @@ p{
 }
 
 
-.header-button{
-  margin: 3.5rem 1.25rem 3.5rem 0
-}
+
 
 
 /* Features */
@@ -69,6 +84,8 @@ p{
 #features{
   text-align: center;
   padding: 6% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 
