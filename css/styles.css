@@ -188,7 +188,7 @@ p{
 /* Pricing-Section */
 
 #pricing{
-  padding: 4% 10% 6%;
+  padding: 4% 10% ;
 }
 
 .h1-pricing{
@@ -197,4 +197,52 @@ p{
 
 .recipe-card{
   padding:4% 2%
+}
+
+
+/* Call to Action */
+
+#cta{
+  text-align: center;
+  background-color: #dadbdf;
+  padding: 4% 10%;
+}
+
+.cta-button{
+  margin: 1.5rem;
+}
+
+@media (max-width:990px) {
+  .cta-button{
+    margin: 1rem 1.5rem;
+  }
+}
+
+/* Footer */
+
+#footer{
+  text-align: center;
+  padding: 2% 10% 4%;
+}
+.footer-icon{
+  padding: 1rem;
+  color:#ffc107;
+}
+
+.footer-icon:hover{
+  color:#fdd34c;
+}
+
+.copyright{
+  margin: 1.25rem 0 0;
+}
+
+.footer-link{
+  text-decoration: none;
+  color:#dadbdf; 
+  font-size: 0.7rem;
+}
+
+.footer-link:hover{
+  color: grey;
 }
