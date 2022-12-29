@@ -8,6 +8,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <!-- my CSS stylesheet -->
   <link rel="stylesheet" href="css/styles.css">
+  <!-- favicon-->
+  <link rel="icon" href="favicon.ico">
   <!-- fontawesome icons -->
   <script src="https://kit.fontawesome.com/4f7df7f703.js" crossorigin="anonymous"></script>
   <!-- Google fonts -->
@@ -19,8 +21,8 @@
 
 <body>
 
-  <section id="title">
-    <div class="container-fluid">
+  <section id="title" class="colored-section">
+    <div class="container-large">
 
 
       <!-- Nav Bar -->
@@ -53,7 +55,7 @@
 
       <div class="row">
         <div class="col-lg-5">
-          <h1>Ready to get a new drink experience?</h1>
+          <h1 class="title-heading">Ready to get a new drink experience?</h1>
           <!-- to add a custom class to the bootstap classes, to target the buttons more exact, just add the class to the end, e.g. header-button -->
           <a type="button" class="btn btn-warning header-button" href="#pricing">Mix now <i class="fa-solid fa-arrow-right-long"></i></a>
           <a type="button" class="btn btn-outline-light header-button" href="#features">To the ingidients <i class="fa-solid fa-arrow-right-long"></i></a>
@@ -72,75 +74,73 @@
   <!-- Features -->
 
   <section id="features">
+    <div class="container-small">
 
-    <div class="row feature-row">
-      <div class="col-lg-4 feature-col">
-        <h3><i class="feature-icon fa-solid fa-mug-saucer fa-2x "></i></h3>
-        <h3>Espresso</h3>
-        <p>For the special taste.</p>
-      </div>    
-      
-      <div class="col-lg-4 feature-col">
-        <h3><i class="feature-icon fa-solid fa-bottle-droplet fa-2x"></i></h3>
-        <h3>Vodka</h3>
-        <p>For the kick.</p>
-      </div>
+      <div class="row feature-row">
+        <div class="col-lg-4 feature-col">
+          <i class="feature-icon fa-solid fa-mug-saucer fa-2x "></i>
+          <h3 class="section-heading">Espresso</h3>
+          <p>For the special taste.</p>
+        </div>    
+        
+        <div class="col-lg-4 feature-col">
+          <i class="feature-icon fa-solid fa-bottle-droplet fa-2x"></i>
+          <h3 class="section-heading">Vodka</h3>
+          <p>For the kick.</p>
+        </div>
 
-      <div class="col-lg-4 feature-col">
-        <h3><i class="feature-icon fa-solid fa-wine-bottle fa-2x"></i></h3>
-        <h3>Kahlua</h3>
-        <p>Adds the sweetness to your drink.</p>
-      </div>
-      
-      <div class="">
-        <a type="button" class="btn btn-warning btn-blog" href="#pricing">To the recipes <i class="fa-solid fa-arrow-right-long"></i></a>
+        <div class="col-lg-4 feature-col">
+          <i class="feature-icon fa-solid fa-wine-bottle fa-2x"></i>
+          <h3 class="section-heading">Kahlua</h3>
+          <p>Adds the sweetness to your drink.</p>
+        </div>
+        
+        <div class="">
+          <a type="button" class="btn btn-warning btn-blog" href="#pricing">To the recipes <i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
       </div>
     </div>
-    
   </section>
 
 
   <!-- Testimonials -->
 
-  <section id="testimonials">
+  <section id="testimonials" class="colored-section">
 
-    <div id="carousel-testimonials" class="carousel slide" data-bs-ride="carousel" data-interwall="3000">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carousel-testimonials" data-bs-slide-to="0" class="active"></button>
-        <button type="button" data-bs-target="#carousel-testimonials" data-bs-slide-to="1" ></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <h3 class="testimonial-text">"Because sometimes a cup of coffe isn't enough."</h3>
-          <img class="testimonials-img" src="images/AliceGarcia-img.jpg" alt="AliceGarcia-profile">
-          <em>Alice Garcia, Illinois</em> 
+      <div id="carousel-testimonials" class="carousel slide" data-bs-ride="carousel" data-interwall="3000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel-testimonials" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#carousel-testimonials" data-bs-slide-to="1" ></button>
         </div>
-        <div class="carousel-item">
-          <h3>"This ultimate combination of coffe and cocktail will make you love your nights out."</h3>
-          <img class = "testimonials-img" src="images/JohnSmith-img.jpg" alt="JonSmith-profile">
-          <em>John Smith, New York</em>
-          
+        <div class="carousel-inner container-small">
+          <div class="carousel-item active">
+            <h3 class="section-heading">"Because sometimes a cup of coffe isn't enough."</h3>
+            <img class="testimonials-img" src="images/AliceGarcia-img.jpg" alt="AliceGarcia-profile">
+            <em>Alice Garcia, Illinois</em> 
+          </div>
+          <div class="carousel-item">
+            <h3 class="section-heading">"This ultimate combination of coffe and cocktail will make you love your nights out."</h3>
+            <img class = "testimonials-img" src="images/JohnSmith-img.jpg" alt="JonSmith-profile">
+            <em>John Smith, New York</em>
+            
+          </div>
         </div>
+        
+        <button class="carousel-button carousel-control-prev" type="button" data-bs-target="#carousel-testimonials" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span> 
+        </button>
+        <button class="carousel-button carousel-control-next" type="button" data-bs-target="#carousel-testimonials" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-testimonials" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span> 
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carousel-testimonials" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
-    </div>
-
-
-
-  
-
+     
 
   </section>
 
 
   <!-- Press -->
 
-  <section id="press">
+  <section id="press" class="colored-section">
 
     <div class="row press-row">
       <div class="col-lg-3 col-sm-6 press-col">
@@ -158,99 +158,101 @@
       <div class="col-lg-3 col-sm-6 press-col">
         <img class= "press-img" src="images/just-drinks.png" alt="just-drinks-logo">
       </div>    
-     
+    </div>
   </section>
 
 
   <!-- Pricing -->
 
   <section id="pricing">
-
+    <div class="container-large"> 
     
-    <h1 class="h1-pricing">A recipe for every taste. </h1>
-    <p>From simple to sophisticated, a recipe for every occation.</p>
+      <h1 class="title-heading">A recipe for every taste. </h1>
+      <p class="pricing-p">From simple to sophisticated, a recipe for every occation.</p>
 
 
-    <div class="row">
-      <div class="recipe-card col-lg-4 col-md-6">
-        <div class="card text-center h-100">
-          <div class="card-header">
-            <h3>Classic Espresso Martini</h3>
-          </div>
-          <div class="card-body d-flex flex-column h-100">
-            <h4>Go Classic</h4>
-            <p>50ml Vodka</p>
-            <p>25ml Kahlua</p>
-            <p>25ml Espresso</p>
-            <button type="button" class= "w-100 btn btn-warning mt-auto">Mix Now</button>
-          </div>
-         
-            
-        
-        </div>
-      </div>
-
-      <div class="recipe-card col-lg-4 col-md-6">
-        <div class="card text-center h-100">
-          <div class="card-header middle-card">
-            <h3>Espresso Daiquiri Special</h3>
-          </div>
-          <div class="card-body d-flex flex-column h-100">
-            <h4>Go Tropical</h4>
-            <p>30ml Aged Rum</p>
-            <p>30ml Kahlua</p>
-            <p>30ml Espresso</p>
-            <button type="button" class= "w-100 btn btn-outline-warning mt-auto">Mix Now</button>
+      <div class="row">
+        <div class="recipe-card col-lg-4 col-md-6">
+          <div class="card text-center h-100">
+            <div class="card-header">
+              <h3 class="section-heading">Classic Espresso Martini</h3>
+            </div>
+            <div class="card-body d-flex flex-column h-100">
+              <h4>Go Classic</h4>
+              <p>50ml Vodka</p>
+              <p>25ml Kahlua</p>
+              <p>25ml Espresso</p>
+              <button type="button" class= "w-100 btn btn-warning mt-auto">Mix Now</button>
+            </div>
+          
+              
+          
           </div>
         </div>
-      </div>
 
-      <div class="recipe-card col-lg-4 col-md-12">
-        <div class="card text-center h-100">
-          <div class="card-header">
-            <h3>Virgin Espresso Martini</h3>
-          </div>
-          <div class="card-body d-flex flex-column h-100">
-            <h4>Go Soft</h4>
-            <p>10ml Heavy Cream</p>
-            <p>2tbsp Honey</p>
-            <p>30ml Espresso</p>
-            <p>1tbsp Vanilla Aroma</p>
-            <button type="button" class= "w-100 btn btn-outline-warning mt-auto">Mix Now</button>
+        <div class="recipe-card col-lg-4 col-md-6">
+          <div class="card text-center h-100">
+            <div class="card-header middle-card">
+              <h3 class="section-heading">Espresso Daiquiri Special</h3>
+            </div>
+            <div class="card-body d-flex flex-column h-100">
+              <h4>Go Tropical</h4>
+              <p>30ml Aged Rum</p>
+              <p>30ml Kahlua</p>
+              <p>30ml Espresso</p>
+              <button type="button" class= "w-100 btn btn-outline-warning mt-auto">Mix Now</button>
+            </div>
           </div>
         </div>
+
+        <div class="recipe-card col-lg-4 col-md-12">
+          <div class="card text-center h-100">
+            <div class="card-header">
+              <h3 class="section-heading">Virgin Espresso Martini</h3>
+            </div>
+            <div class="card-body d-flex flex-column h-100">
+              <h4>Go Soft</h4>
+              <p>10ml Heavy Cream</p>
+              <p>2tbsp Honey</p>
+              <p>30ml Espresso</p>
+              <p>1tbsp Vanilla Aroma</p>
+              <button type="button" class= "w-100 btn btn-outline-warning mt-auto">Mix Now</button>
+            </div>
+          </div>
+        </div>
+
       </div>
 
-
+      </div>
     </div>
-
-    </div>
-
   </section>
 
 
   <!-- Call to Action -->
 
-  <section id="cta">
+  <section id="cta" class="colored-section">
+    <div class="container-large"> 
 
-    <h3>Mix a delicious drink today.</h3>
-    <a type="button" class="btn btn-warning header-button" href="#pricing">Mix now <i class="fa-solid fa-arrow-right-long"></i></a>
-    <a type="button" class="btn btn-outline-light header-button" href="#features">To the ingidients <i class="fa-solid fa-arrow-right-long"></i></a>
-
+      <h3 class="section-heading">Mix a delicious drink today.</h3>
+      <a type="button" class="btn btn-warning header-button" href="#pricing">Mix now <i class="fa-solid fa-arrow-right-long"></i></a>
+      <a type="button" class="btn btn-outline-light header-button" href="#features">To the ingidients <i class="fa-solid fa-arrow-right-long"></i></a>
+  
+    </div>
   </section>
 
 
   <!-- Footer -->
 
   <footer id="footer">
+    <div class="container-large"> 
 
-    <a class="footer-icon" href="" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-    <a class="footer-icon" href="" title="Bar"><i class="fa-solid fa-martini-glass-empty "></i></a>
-    <a class="footer-icon" href="" title="E-Mail"><i class="fa-regular fa-envelope"></i></a>
-  
-    <p class="copyright">© Copyright Sarah Kolb</p>
-    <a class="footer-link" href="https://www.vecteezy.com/free-vector/avatar">Avatar Vectors by Vecteezy</a>
-
+      <a class="footer-icon" href="" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a class="footer-icon" href="" title="Bar"><i class="fa-solid fa-martini-glass-empty "></i></a>
+      <a class="footer-icon" href="" title="E-Mail"><i class="fa-regular fa-envelope"></i></a>
+    
+      <p class="copyright">© Copyright Sarah Kolb</p>
+      <a class="footer-link" href="https://www.vecteezy.com/free-vector/avatar">Avatar Vectors by Vecteezy</a>
+    </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>

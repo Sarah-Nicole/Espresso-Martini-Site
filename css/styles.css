@@ -1,92 +1,47 @@
-/* #ffc107 = yellow */
-
 
 body{
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
-h1{
+h1, h2, h3 {
   font-family: 'DM Serif Text', serif;
-  font-size: 3.5rem;
-  line-height: 1.25;
-}
-
-h3{
-  font-family: 'DM Serif Text', serif;
-  font-size: 2rem;
-  line-height: 1.25;
 }
 
 p{
   color:grey;    
 }
 
-/* Title Section */
+/* Headings */
 
-#title{
+.title-heading{
+  font-size: 3.5rem;
+  line-height: 1.25;
+  text-align: left;
+}
+
+.section-heading{
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+/* Containers*/ 
+
+.container-large{
+  padding: 4% 10%; 
+}
+
+.container-small{
+  padding: 6% 15%;
+}
+
+/* Sections */
+
+.colored-section{
   background-color:#dadbdf;
-
-
-}
-
-.container-fluid{
-  padding: 2% 10% 4%;
-}
-
-
-.header-img-martini{
-  width: 45%;
-  border: solid #ffc107;
-  transform: rotate(-10deg);
-  position: absolute;
-  right: 8%;
-  top: 25%;
-
-  
-}
-
-.header-button{
-  margin: 3.5rem 1.25rem 1rem 0;
-}
-
-@media (max-width:1072px) and (min-width:990px){
-  
-
-  .header-img-martini{
-    width: 45%;
-    transform: rotate(-10deg);
-    position: absolute;
-  }
-    
-  .header-button{
-    margin: 1.25rem;
-  }
-
-}
-
-@media (max-width:990px) {
-  #title{
-    text-align: center;
-  }
- 
-  h1{
-    padding: 1.75rem 0;
-  }
-  .header-img-martini{
-    width: 85%;
-    transform: rotate(0);
-    position:static;
-    margin: 5%;
-  }
-    
-  .header-button{
-    margin: 1.25rem;
-  }
-
 }
 
 /* Navigation Bar */
-
 .navbar{
   padding: 0 0 4rem;
 }
@@ -106,18 +61,67 @@ p{
 }
 
 
+/* Title Section */
 
+#title .container-large{
+  padding: 2% 10% 4%;
+}
+
+.header-img-martini{
+  width: 45%;
+  border: solid #ffc107;
+  transform: rotate(-10deg);
+  position: absolute;
+  right: 8%;
+  top: 25%;
+}
+
+.header-button{
+  margin: 3.5rem 1.25rem 1rem 0;
+}
+
+@media (max-width:1072px) and (min-width:990px){
+  
+  .header-img-martini{
+    width: 45%;
+    transform: rotate(-10deg);
+    position: absolute;
+  }
+    
+  .header-button{
+    margin: 1.25rem;
+  }
+
+}
+
+@media (max-width:990px) {
+  .title-heading{
+    text-align: center;
+  }
+ 
+  h1{
+    padding: 1.75rem 0;
+  }
+
+  .header-img-martini{
+    width: 85%;
+    transform: rotate(0);
+    position:static;
+    margin: 5%;
+  }
+    
+  .header-button{
+    margin: 1.25rem;
+  }
+}
 
 
 /* Features */
 
 #features{
-  text-align: center;
-  padding: 6% 15%;
   background-color: #fff;
   position: relative;
 }
-
 
 .feature-col{
   padding: 2rem;
@@ -127,9 +131,6 @@ p{
   color:#ffc107;
   padding-bottom: 1.25rem;
 }
-.feature-icon:hover{
-  color: #fdd34c;
-}
 
 .btn-blog{
   margin: 1rem 0 2rem;
@@ -137,18 +138,6 @@ p{
 
 
 /* Testimonials */
-
-#testimonials{
-  text-align: center;
-  background-color: #dadbdf;
-
-  
-}
-
-#carousel-testimonials{
-  padding: 6% 15% 3%;
-  
-}
 
 .carousel-item{
   min-height:15rem;
@@ -158,8 +147,8 @@ p{
   width: 5rem;
   border-radius: 100%;
   margin: 2rem;
-  
 }
+
 
 .carousel-indicators button {
   height: 8px !important;
@@ -171,9 +160,7 @@ p{
 /* Press */
 
 #press{
-  text-align: center;
-  background-color: #dadbdf;
-  padding: 3% 8% 6%;
+  padding: 0 8% 6%;
 }
 
 .press-col{
@@ -187,26 +174,22 @@ p{
 
 /* Pricing-Section */
 
-#pricing{
-  padding: 4% 10% ;
-}
 
-.h1-pricing{
-  margin-bottom: 2%;
+.pricing-p{
+  text-align: left;
 }
 
 .recipe-card{
   padding:4% 2%
 }
 
+@media (max-width:990px) {
+  .pricing-p{
+    text-align: center;
+  }
+}
 
 /* Call to Action */
-
-#cta{
-  text-align: center;
-  background-color: #dadbdf;
-  padding: 4% 10%;
-}
 
 .cta-button{
   margin: 1.5rem;
@@ -220,10 +203,6 @@ p{
 
 /* Footer */
 
-#footer{
-  text-align: center;
-  padding: 2% 10% 4%;
-}
 .footer-icon{
   padding: 1rem;
   color:#ffc107;
